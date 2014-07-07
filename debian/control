@@ -1,0 +1,16 @@
+Source: s3curl
+Section: net
+Priority: optional
+Maintainer: Sebastien Delafond <seb@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://aws.amazon.com/developertools/Amazon-S3/128
+Vcs-Git: git://anonscm.debian.org/collab-maint/s3curl.git
+Vcs-Browser: http://anonscm.debian.org/git/collab-maint/s3curl.git
+
+Package: s3curl
+Architecture: all
+Depends: curl, libdigest-hmac-perl, libdigest-md5-file-perl, libfindbin-libs-perl, libgetopt-long-descriptive-perl
+Description: Easily interact with AWS S3 HTTP services
+ Calculates the proper signature to interact with AWS S3 HTTP
+ services, then calls cURL with the appropriate arguments.
