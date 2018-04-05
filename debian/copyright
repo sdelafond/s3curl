@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: s3curl
-Source: https://aws.amazon.com/developertools/Amazon-S3/128
+Source: https://aws.amazon.com/code/amazon-s3-authentication-tool-for-curl/
 
 Files: *
 Copyright: 2006-2010 Amazon.com, Inc. or its affiliates
